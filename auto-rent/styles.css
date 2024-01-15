@@ -1,0 +1,881 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "Averta_CY";
+    src: url(fonts/AvertaDemoPE-ExtraboldItalic.ttf);
+}
+
+body {
+    background-color: #060606;
+    font-family: "Averta_CY", sans-serif;
+    color: #FFF;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.main {
+    background: url(images/Rectangle\ 155.png) no-repeat center top;
+    background-size:cover;
+}
+
+header {
+    padding: 69px 0px;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    vertical-align: bottom;
+}
+
+nav {
+    margin-left: 121px;
+}
+
+.menu-list {
+    list-style: none;
+    display: flex;
+}
+
+.menu-item {
+    margin-right: 4px;
+}
+
+.menu-item a {
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 8px 30px;
+}
+
+.menu-item a:hover {
+    padding: 6px 28px;
+    border-radius: 10px;
+    border: 2px solid #BA111A;
+    
+}
+
+.social {
+    margin-left: 42px;
+    padding-right: 20px;
+}
+
+.link-social img {
+    padding-right: 20px;
+}
+
+.main-container {
+    padding-top: 436px;
+    display: flex;
+    align-items: end;
+    padding-bottom: 221px;
+}
+
+.title {
+    margin-right: 93px;
+    margin-left: 100px;
+}
+
+.track {
+    font-size: 80px;
+    color: #FFF;
+}
+
+.ready {
+    font-size: 120px;
+    color: #DE131E;
+    width: 700px;
+}
+
+.info-logo {
+    display: flex;
+    align-items: end;
+}
+
+.main-info {
+    font-size: 15px;
+    margin-left: 20px;
+    margin-right: 50px;
+    width: 350px;
+}
+
+button {
+    width: 207px;
+    max-height: 59px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background: #DE131E;
+    display: flex;
+    padding: 20px 65px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    border: 0;
+    cursor: pointer;
+    outline: none;
+}
+
+.program-mobile {
+    display: none;
+}
+
+.programm .container {
+    margin-left: 418px;
+}
+
+.what-programm {
+    font-size: 80px;
+    margin-left: 305px;
+    margin-bottom: 25px;
+}
+
+.first {
+    background: url(images/image\ 28.png);
+    padding-bottom: 72px;
+    margin-left: 13px;
+}
+
+.number {
+    font-size: 150px;
+    color: #DE121E;
+}
+.first .some {
+    margin-left: 657px;
+}
+
+.rent-title {
+    font-size: 28px;
+    margin-bottom: 16px;
+}
+
+.rent-info {
+    margin-top: 17px;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.89);
+}
+
+.second {
+    background: url(images/image\ 29.png);
+    padding-bottom: 44px;
+}
+
+.second .number {
+    margin-bottom: 30px;
+}
+
+.therd {
+    background: url(images/image\ 30.png) no-repeat;
+    margin-left: -31px;
+    padding-bottom: 68px;
+}
+
+.therd .number {
+    margin-left: 40px;
+}
+
+.therd .some {
+    margin-left: 686px;
+    margin-top: 40px;
+}
+
+.four {
+    background: url(images/image\ 31.png) no-repeat;
+    margin-left: -3px;
+    padding-bottom: 34px;
+}
+
+.four .some {
+    margin-top: 30px;
+}
+
+.five {
+    background: url(images/image\ 32.png) no-repeat;
+    margin-left: -16px;
+    padding-top: 100px;
+    padding-bottom: 43px;
+}
+
+.five .some {
+    margin-left: 672px;
+    margin-top: 62px;
+}
+
+.programm button {
+    margin-left: 888px;
+    margin-bottom: 80px;
+}
+
+.sportcars {
+    display: flex;
+    align-items: center;
+    margin-left: 305px;
+    margin-bottom: 34px;
+}
+
+.sport-title {
+    font-size: 80px;
+}
+
+.sportcars-info {
+    margin-left: 73px;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.89);
+}
+
+.mini-porshe {
+    margin-left: 307px;
+    background: url(images/Group\ 18255.png) no-repeat;
+}
+
+.mini-porshe-img {
+    margin-top: -10px;
+}
+
+.class-porshe {
+    margin-top: 3px;
+    padding-bottom: 68px;
+    padding-left: 60px;
+}
+
+.main-porshe {
+    background: url(images/Rectangle\ 157.png) no-repeat;
+    display: flex;
+}
+
+.main-info-porshe {
+    margin-left: 1204px;
+    margin-bottom: 74px;
+    margin-top: 758px;
+    margin-right: 6px;
+    display: flex;
+}
+
+.main-info-porshe img {
+    margin-bottom: 54px;
+}
+
+.big-porshe {
+    font-size: 100px;
+}
+
+.containerSlide {
+    padding-left: 20px;
+}
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.swiper-slide img {
+    display: block;
+    object-fit: cover;
+}
+
+.about-porshe {
+    margin-left: 300px;
+    margin-bottom: 53px;
+    display: flex;
+    align-items: center;
+}
+
+.title-porshe {
+    font-size: 80px;
+    margin-right: 19px;
+}
+
+.class-title {
+    font-size: 45px;
+    margin-right: 88px;
+}
+
+.porshe-info {
+    margin-right: 62px;
+}
+
+.static {
+    font-size: 18px;
+}
+
+.about-static {
+    font-size: 15px;
+}
+
+.porshe-button {
+    margin-left: 850px;
+}
+
+.porshe-button {
+    margin-bottom: 25px;
+}
+
+.price {
+    margin-left: 850px;
+    font-size: 20px;
+    margin-bottom: 39px;
+}
+.sertificate {
+    padding-top: 41px;
+    display: flex;
+}
+
+.title-race {
+    font-size: 60px;
+}
+
+.main-sertificate {
+    margin-left: 309px;
+    margin-right: 33px;
+}
+
+.around-present {
+    display: flex;
+}
+
+.present {
+    display: inline-block;
+    padding: 7px 22px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.09);
+    margin-bottom: 74px;
+}
+
+
+
+.about-sirtificate {
+    display: flex;
+    margin-bottom: 34px;
+}
+
+.info-sertificate {
+    margin-left: 15px;
+    font-size: 18px;
+}
+
+.v {
+    max-height: 24px;
+}
+
+.sertificate-buttons {
+    display: flex;
+    margin-top: 75px;
+}
+
+.more {
+    margin-left: 52px;
+    background: #0F0F0F;
+    border-radius: 10px;
+    border: 2px solid #707070;
+}
+
+.info-race {
+    display: flex;
+    align-items: center;
+    margin-left: 309px;
+}
+
+.info-about-race {
+    margin-left: 73px;
+    font-size: 18px;
+}
+
+.video {
+    margin-top: 27px;
+    margin-left: 25%;
+    margin-bottom: 15px;
+}
+
+.video-mobile {
+    display: none;
+}
+
+.footer-line {
+    display: flex;
+}
+
+footer .container {
+    display: flex;
+    margin-top: 28px;
+    margin-bottom: 56px;
+}
+
+.company-years {
+    font-size: 18px;
+    margin-right: 491px;
+}
+
+.footer-links {
+    display: flex;
+}
+
+.social-links {
+    margin-right: 30px;
+}
+
+.media {
+    margin-right: 5px;
+    color: #FFF;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.popUp {
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: rgba(0, 0, 0, .6);
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    display: none;
+}
+
+.popUp-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.popUp-body {
+    width: 400px;
+    height: 500px;
+    margin: auto;
+    position: relative;
+    background-color: rgb(41, 40, 40);
+}
+
+.popUp-body:focus {
+    outline: none;
+}
+
+.parent-close {
+    display: flex;
+    align-items: end;
+}
+
+.close-popUp {
+    margin-left: auto;
+    margin-right: 0;
+    cursor: pointer;
+    padding: 5px 10px;
+    background-color: red;
+    color: white;
+}
+
+.popUp-inputs {
+    width: 100%;
+    height: 100%;
+    margin-top: 10%;
+}
+
+.popUp-inputs input {
+    margin-top: 25px;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 40px;
+    width: 300px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.popUp-inputs input[type=submit] {
+    height: 59px;
+}
+
+.closeButton {
+    margin-left: 5px;
+    box-sizing: border-box;
+    background: #DE131E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+
+.popUp-header {
+    max-width: 300px;
+    margin-left: 10%;
+}
+
+.popUp-title {
+    text-align: center;
+}
+
+.openPopUp {
+    display: block;
+}
+
+
+
+.scrollButton {
+    display: none;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: rgb(74, 71, 71);
+    width: 50px;
+    height: 50px;
+    z-index: 1001;
+    position: fixed;
+    top: 90%;
+    left: 95%;
+}
+
+.porshe-images-mobile, .containerSlide-mobile {
+    display: none;
+}
+
+
+@media (max-width: 400px) {
+    .container {
+        max-width: 250px;
+        margin: 0;
+    }
+    header {
+        padding: 34px 0px;
+    }
+
+    .logo img {
+        margin-left: 30px;
+        width: 99px;
+    }
+
+    nav, .social, .languages {
+        display: none;
+    }
+
+    .main {
+        background: url(images/Rectangle\ 155.png) no-repeat center top;
+        background-size: 670px ;
+    }
+
+    .main-container {
+        padding-top: 0;
+        padding-bottom: 0;
+        display: block;
+    }
+
+    .title {
+        margin-left: 20px;
+        padding-bottom: 35px;
+        width: 400px;
+        margin-top: 150px;
+    }
+    
+    .track {
+        font-size: 30px;
+        color: #FFF;
+    }
+    
+    .ready {
+        font-size: 50px;
+        color: #DE131E;
+    }
+
+    .main-info {
+        font-size: 15px;
+        margin-left: 20px;
+        margin-right: 50px;
+        width: 350px;
+    }
+    
+    button {
+        margin-top: 40px;
+        margin-left: 100px;
+        margin-bottom: 50px;
+        width: 154px;
+        font-size: 25px;
+    }
+
+    .what-programm {
+        font-size: 27px;
+        margin-left: 41px;
+        margin-bottom: 34px;
+        width: 400px;
+        
+    }
+
+    .programm {
+        display: none;
+    }
+
+    .program-mobile {
+        display: block;
+    }
+
+    .first-mobile {
+        margin-left: 40px;
+    }
+
+    .main-rent-info-mobile {
+        display: flex;
+    }
+
+    .number-mobile {
+        color: #DE121E;
+        font-size: 46.837px;
+    }
+
+    .some-mobile {
+        margin-left: 24px;
+    }
+
+    .rent-title-mobile {
+        margin-bottom: 2px;
+        width: 400px;
+        color: #FFF;
+        font-size: 17px;
+    }
+
+    .rent-info-mobile {
+        color: rgba(255, 255, 255, 0.89);
+        font-size: 15px;
+        margin-bottom: 21px;
+    }
+
+    .first-mobile img {
+        margin-bottom: 52px;
+    }
+
+    .program-mobile button {
+        margin-left: 120px;
+    }
+    
+    .sportcars {
+        margin-left: 0;
+        display: block;
+    }
+
+    .sport-title {
+            font-size: 32px;
+            margin-left: 100px;
+            margin-bottom: 14px;
+        }
+
+    .sportcars-info {
+        margin-left: 28px;
+        font-size: 15px;
+        color: rgba(255, 255, 255, 0.89);
+    }
+
+    .mini-porshe {
+        display: none;
+    }
+
+    .main-porshe {
+        display: none;
+    }
+    
+    .porshe-images {
+        display: none;
+    }
+
+    .porshe-images-mobile h1 {
+        margin-top: 52px;
+        margin-left: 70px;
+        font-size: 32px;
+        padding-bottom: 193px;
+
+    }
+
+    .porshe-images-mobile {
+        display: block;
+        background: url(images/Rectangle\ 157.png) no-repeat top center;
+        background-size: 500px ;
+    }
+
+    .containerSlide-mobile {
+        display: block;
+        width: 400px;
+    }
+    .swiper-slide {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 36px;
+    }
+      
+    .swiper-slide img {
+        width: 210px;
+        display: block;
+        object-fit: cover;
+    }
+
+    .title-porshe {
+        display: none;
+    }
+
+    .class-title {
+        display: none;
+    }
+
+    .about-porshe {
+        margin-left: 60px;
+        display: grid;
+        grid-template-columns: 170px 80px;
+    }
+
+    .porshe-info {
+        width: 122px;
+        margin-bottom: 21px;
+        margin-right: 49px;
+    }
+
+    .porshe-button {
+        margin-left: 0;
+    }
+
+    .porshe-button button {
+        margin-left: 120px;
+        margin-bottom: 72px;
+    }
+
+    .price {
+        margin-left: 95px;
+        margin-bottom: 76px;
+    }
+
+    .sertificate {
+        display: block;
+    }
+
+    .main-sertificate {
+        margin-left: 28px;
+    }
+
+    .title-race {
+        width: 400px;
+        font-size: 25px;
+        margin-bottom: 11px;
+    }
+
+    .present {
+        margin-bottom: 40px;
+    }
+
+    .about-sirtificate img {
+        height: 24px;
+    }
+    
+    .sertificate-buttons {
+        display: none;
+    }
+
+    .img-sertificate img{
+        width: 354px;
+    }
+
+    .info-race {
+        margin-left: 0;
+        display: block;
+    }
+
+    .info-race .title-race {
+        margin-left: 60px;
+        margin-bottom: 24px;
+    }
+
+    .info-about-race {
+        margin-left: 28px;
+        color: rgba(255, 255, 255, 0.89);
+        margin-bottom: 20px;
+    }
+
+    .video {
+        display: none;
+    }
+    .video-mobile {
+        display: block;
+        margin-left: 25px;
+    }
+
+    footer .container {
+        display: grid;
+        align-items: center;
+    }
+
+    .company-years {
+        width: 400px;
+        margin-right: 0;
+        margin-left: 100px;
+        margin-bottom: 16px;
+    }
+
+    .footer-links {
+        display: block;
+        margin-left: 140px;
+    }
+    
+    .scrollButton {
+        left: 85%;
+    }
+
+    .popUp-body {
+        width: 300px;
+        height: 400px;
+        margin: auto;
+        position: relative;
+        background-color: rgb(41, 40, 40);
+    }
+
+    .popUp-title {
+        margin-left: -20px;
+    }
+    
+    .popUp-inputs {
+        margin-left: -10px;
+        width: 100%;
+        height: 100%;
+        margin-top: 3%;
+    }
+    
+    .popUp-inputs input {
+        margin-top: 15px;
+        border: 1px solid black;
+        border-radius: 10px;
+        height: 35px;
+        width: 250px;
+        padding: 5px;
+        font-size: 20px;
+    }
+    
+    .popUp-inputs input[type=submit] {
+        height: 55px;
+    }
+    
+    .closeButton {
+        margin-left: 5px;
+        box-sizing: border-box;
+        background: #DE131E;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: white;
+        cursor: pointer;
+        outline: none;
+    }
+    
+    .popUp-header {
+        max-width: 300px;
+        margin-left: 10%;
+    }
+}
+
+
